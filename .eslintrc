@@ -1,0 +1,22 @@
+{
+    "rules": {
+      "comma-dangle": [2,"always-multiline"],
+      "strict": [1,"function"],
+      "callback-return": 1,
+      "handle-callback-err": 1,
+      "no-mixed-requires": [1,true],
+      "arrow-parens": [1,"always"],
+      "arrow-spacing": [1,{"before":true,"after":true}],
+      "constructor-super": 1,
+      "generator-star-spacing": 1,
+      "no-class-assign": 1,
+      "object-shorthand": [1,"always"],
+      "prefer-const": 1,
+      "max-depth": 1,
+      "max-len": 1,
+      "max-params": 1,
+      "max-statements": 1,
+      "no-bitwise": 1,
+      "no-plusplus": 1
+    }
+  }
