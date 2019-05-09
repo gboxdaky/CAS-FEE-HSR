@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cas Fee HSR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/Roboto-Regular.ttf">
+    <title>To Do Liste</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="notes">
+            Notes
+        </h1>
+        <button id="create_new_note">
+            Create New Note
+        </button>
+        <select name="dropdown" id="select_style">
+            <option value="black_white_style">
+                Black White Style
+            </option>
+            <option value="white_style">
+                White Style
+            </option>
+            <option value="black_style">
+                Black Style
+            </option>
+        </select>
+    </header>
+    <!-- Navigation -->
+    <div class="navigation_container">
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">By Finish Date</a></li>
+                <li><a href="#">By Created Date</a></li>
+                <li><a href="#">By Importance</a></li>
+                <li class="li_item"><a href="#">Show Finished</a></li>
+            </ul>
+        </nav>
+        <!-- Ende Nav -->
+    </div>
+    <!-- Ende Nav Container -->
+
+    <!-- Section -->
+    <div class="container">
+        <section class="todo_liste">
+            <h1>Some Content</h1>
+        </section>
+        <!-- Ende Section -->
+    </div>
+    <!-- Ende Container -->
 </body>
+<script src="index.js"></script>
+
 </html>
